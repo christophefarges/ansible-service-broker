@@ -286,6 +286,7 @@ func CreateApp(args Args, regs []registries.Registry) App {
 		Namespace:            brokerNS,
 		KeepNamespace:        app.config.GetBool("openshift.keep_namespace"),
 		KeepNamespaceOnError: app.config.GetBool("openshift.keep_namespace_on_error"),
+		NamespacesWhitelist:  app.config.GetSliceOfStrings("openshift.namespaces_whitelist"),
 	}
 	bundle.InitializeClusterConfig(clusterConfig)
 
