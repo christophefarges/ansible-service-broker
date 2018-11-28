@@ -76,3 +76,8 @@
   unused-packages = true
   go-tests = true
   non-go = true
+
+[[override]]
+  name = "github.com/automationbroker/bundle-lib"
+  source = "github.com/christophefarges/bundle-lib"
+  branch = "master"

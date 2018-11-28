@@ -56,7 +56,8 @@
   revision = "bf1c2b52e55d67b4c3a917daaadee9b86a6c66e0"
 
 [[projects]]
-  digest = "1:8a5180654f2ceed1da8092b64faa0d0294a8b4ed56ccd56f9861915da9dd9405"
+  branch = "master"
+  digest = "1:3303418a7d22b089cc0c36f851538e8f01ab0cb19dbe7329b35c9412619eb8df"
   name = "github.com/automationbroker/bundle-lib"
   packages = [
     "authorization",
@@ -71,8 +72,8 @@
     "runtime",
   ]
   pruneopts = "NUT"
-  revision = "dcb2c7426cf962a4870c5e8711fe3a2fa34fa394"
-  version = "0.2.15"
+  revision = "5ebcb59549659b8de254a84f6204806e680b10e0"
+  source = "github.com/christophefarges/bundle-lib"
 
 [[projects]]
   branch = "master"
